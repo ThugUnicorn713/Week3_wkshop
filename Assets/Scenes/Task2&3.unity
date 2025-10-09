@@ -206,7 +206,7 @@ Transform:
   m_GameObject: {fileID: 330585543}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: -10}
+  m_LocalPosition: {x: 0, y: 62.2, z: -74.7}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -478,6 +478,76 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1649494745
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1649494747}
+  - component: {fileID: 1649494746}
+  - component: {fileID: 1649494748}
+  m_Layer: 0
+  m_Name: Task4&5
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1649494746
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1649494745}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5ce7459a2432fa40bc281a29138a41a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  position: {x: 0, y: 0}
+  steps: 0
+  streetPrefab: {fileID: 4189881277136654149, guid: 51665c2a3adad1947902113738b6dd04, type: 3}
+  buildingPrefab: {fileID: 6947141013725818638, guid: 70ae0f2491902ab4ea018d1e86a14a31, type: 3}
+  parkPrefab: {fileID: 4950856611551924897, guid: cd633222f48f9614cbb4c5e3d5a20063, type: 3}
+  agentType: 0
+--- !u!4 &1649494747
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1649494745}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1649494748
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1649494745}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4364fa4b440cb847bf80cc0c841ef83, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  width: 50
+  height: 50
+  streetPrefab: {fileID: 4189881277136654149, guid: 51665c2a3adad1947902113738b6dd04, type: 3}
+  buildingPrefab: {fileID: 6947141013725818638, guid: 70ae0f2491902ab4ea018d1e86a14a31, type: 3}
+  parkPrefab: {fileID: 4950856611551924897, guid: cd633222f48f9614cbb4c5e3d5a20063, type: 3}
+  numAgents: 5
+  steps: 300
 --- !u!1 &1960905550
 GameObject:
   m_ObjectHideFlags: 0
@@ -494,7 +564,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1960905552
 Transform:
   m_ObjectHideFlags: 0
@@ -540,3 +610,4 @@ SceneRoots:
   - {fileID: 832575519}
   - {fileID: 1341461120}
   - {fileID: 1960905552}
+  - {fileID: 1649494747}
